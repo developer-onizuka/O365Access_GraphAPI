@@ -100,7 +100,7 @@ http://localhost/
 You can put the token retrieved into the header of API call. You can find messages.
 ```
 # curl -H "Authorization: Bearer xxx..." https://graph.microsoft.com/v1.0/me/messages |jq .value[].subject
-
+  ...
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100 23199    0 23199    0     0   112k      0 --:--:-- --:--:-- --:--:--  112k
@@ -110,5 +110,27 @@ You can put the token retrieved into the header of API call. You can find messag
 See also [Microsoft Graph REST API v1.0 endpoint reference](https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0). <br>
 
 # 5-4. Other APIs
+You add the scope=https://graph.microsoft.com/Presence.Read.All in addition to above. You can use "%20" which means space.
+```
+&scope=https://graph.microsoft.com/Mail.Read%20https://graph.microsoft.com/Presence.Read.All
+```
+Before login to Teams App.
+```
+# curl -H "Authorization: Bearer xxx..." https://graph.microsoft.com/v1.0/me/presence |jq .availability
+  ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   220    0   220    0     0   2178      0 --:--:-- --:--:-- --:--:--  2178
+"Offline"
+```
 
+After login to Teams App.
+```
+# curl -H "Authorization: Bearer xxx..." https://graph.microsoft.com/v1.0/me/presence |jq .availability
+  ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   220    0   220    0     0   2178      0 --:--:-- --:--:-- --:--:--  2178
+"Available"
+```
 
