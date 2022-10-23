@@ -1,7 +1,9 @@
 # O365Access_GraphAPI
 
+Microsoft Graph is the gateway to data and intelligence in Microsoft 365. It provides a unified programmability model that you can use to access the tremendous amount of data in Microsoft 365, Windows, and Enterprise Mobility + Security. Use the wealth of data in Microsoft Graph to build apps for organizations and consumers that interact with millions of users.
 
-# 1. Create Developer Account (Free)
+# 1. Create Developer Account
+You can create Developer Account as free so that you can test your O365 app.
 > https://developer.microsoft.com/ja-jp/microsoft-365/dev-program
 
 Confirm the link below, and you can see "Microsoft 365 E5 Developer" in subscription.
@@ -134,3 +136,7 @@ After login to Teams App.
 "Available"
 ```
 
+# 6. Reference
+> https://dev.classmethod.jp/articles/microsoft-graph-python/
+> https://ashiqf.com/2021/03/16/call-microsoft-graph-api-as-a-signed-in-user-with-delegated-permission-in-power-automate-or-azure-logic-apps-using-http-connector/
+> https://qiita.com/massie_g/items/fe7540161aa4a5f86bf5
