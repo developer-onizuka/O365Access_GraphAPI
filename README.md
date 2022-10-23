@@ -73,3 +73,13 @@ You can find mail as followings:
 New access token retrieved....
 2022-10-15T11:54:24Z ----- subject: You've joined the Sample Team Site group
 ```
+
+# 5. Get Mail from O365 with Implicit Credentials Flow
+Enter the URL into your browser. You don't need to specify the CLIENT_CECRET in it because you're asked the consent by AzureAD through browser, soon.
+```
+https://login.microsoftonline.com/<TENANT_ID>/oauth2/v2.0/authorize
+?client_id=<CLIENT_ID>
+&response_type=token
+&redirect_uri=http://localhost/
+&scope=https://graph.microsoft.com/Mail.Read
+```
