@@ -40,7 +40,7 @@ Login to [Azure](https://portal.azure.com).
 (14) Click "Grant admin consent for App" in API permission's tab (**Important**) <br>
 (15) Check if API/Permisson is granted (See status row)
 
-# 2-4. Implicit credentials flow
+# 2-4. Implicit credentials flow (for Step5)
 (16) Select "Authentication" in the registered App's Blade <br>
 (17) Select "Access tokens" and "ID tokens" <br>
 (18) Save it
