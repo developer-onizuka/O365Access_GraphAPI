@@ -43,7 +43,7 @@ Login to [Azure](https://portal.azure.com).
 (15) Check if API/Permisson is granted (See status row)
 
 # 2-4. Implicit credentials flow 
-**If you select Delegated permissions, then it might be not neccessary.**
+**If you select Delegated permissions, then it might be not neccessary.**<br>
 (16) Select "Authentication" in the registered App's Blade <br>
 (17) Select "Access tokens" and "ID tokens" <br>
 (18) Save it
