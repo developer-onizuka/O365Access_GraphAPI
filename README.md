@@ -30,4 +30,10 @@ Login to [Azure](https://portal.azure.com).
 (9) Copy it to a text file, temporary <br>
 
 # 2-3. Grant Read permission
-
+(10) Select "API permissions" in the registered App's Blade <br>
+(11) Select "Add a permission" in API permissions's tab <br>
+(12) Select "Microsoft Graph" in a poped-up window <br>
+(13) Select the permission to let grant
+```
+     ex: Mail.Read
+```
