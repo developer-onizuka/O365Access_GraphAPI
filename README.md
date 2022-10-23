@@ -37,3 +37,17 @@ Login to [Azure](https://portal.azure.com).
 ```
      ex: Mail.Read
 ```
+(14) Click "Grant admin consent for App" in API permission's tab (**Important**) <br>
+(15) Check if API/Permisson is granted (See status row)
+
+# 3. Create VM for Python
+```
+# git clone https://github.com/developer-onizuka/O365Access_GraphAPI
+# cd O365Access_GraphAPI
+# vagrant up --provider=libvirt
+# vagrant ssh
+```
+```
+# pip install msal
+```
+
