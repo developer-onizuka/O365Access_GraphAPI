@@ -87,7 +87,7 @@ https://login.microsoftonline.com/<TENANT_ID>/oauth2/v2.0/authorize
 ```
 
 # 5-2. Response in browser's address bar
-The token is "**access_token=xxx...**" in the response.
+The response in the address bar contains "**access_token**". You copy and use it to access to O365's Graph API.
 
 http://localhost/
 **#access_token=xxx...**
