@@ -56,3 +56,20 @@ Login to [Azure](https://portal.azure.com).
 # pip install msal
 ```
 
+# 4. Get Mail from O365 with Client Credentials Flow
+```
+# export TENANT_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+# export CLIENT_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+# export CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# export USER_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+```
+```
+# git clone https://github.com/developer-onizuka/O365Access_GraphAPI
+# cd O365Access_GraphAPI
+```
+You can find mail as below:
+```
+# python3 getMail.py 
+New access token retrieved....
+2022-10-15T11:54:24Z ----- subject: You've joined the Sample Team Site group
+```
