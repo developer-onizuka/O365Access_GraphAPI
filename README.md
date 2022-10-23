@@ -75,6 +75,8 @@ New access token retrieved....
 ```
 
 # 5. Get Mail from O365 with Implicit Credentials Flow
+
+# 5-1. Token Request to AzureAD
 Enter the URL into your browser. You don't need to specify the CLIENT_CECRET in it because you're asked the consent by AzureAD through browser, soon.
 ```
 https://login.microsoftonline.com/<TENANT_ID>/oauth2/v2.0/authorize
@@ -83,3 +85,15 @@ https://login.microsoftonline.com/<TENANT_ID>/oauth2/v2.0/authorize
 &redirect_uri=http://localhost/
 &scope=https://graph.microsoft.com/Mail.Read
 ```
+
+# 5-2. Response in browser's address bar
+The token is "access_token=xxx..." in the response.
+
+http://localhost/
+**#access_token=xxx...**
+&token_type=Bearer
+&expires_in=3971
+&scope=profile+openid+email+https%3a%2f%2fgraph.microsoft.com%2fMail.Read
+&session_state=xxx...
+
+
