@@ -35,19 +35,19 @@ Login to [Azure](https://portal.azure.com).
 (10) Select "API permissions" in the registered App's Blade <br>
 (11) Select "Add a permission" in API permissions's tab <br>
 (12) Select "Microsoft Graph" in a poped-up window <br>
-(13) Select "Application permissions" for Client Credentials Flow or "Delegated permissions" for Implicit Credentials Flow.
-(13) Select the permission to let grant
+(13) Select "Application permissions" for Client Credentials Flow or "Delegated permissions" for Implicit Credentials Flow. <br>
+(14) Select the permission to let grant
 ```
      ex: Mail.Read
 ```
-(14) Click "Grant admin consent for App" in API permission's tab (**Important**) <br>
-(15) Check if API/Permisson is granted (See status row)
+(15) Click "Grant admin consent for App" in API permission's tab (**Important**) <br>
+(16) Check if API/Permisson is granted (See status row)
 
 # 2-4. Implicit credentials flow 
 **If you select Delegated permissions, then it might be not neccessary.**<br>
-(16) Select "Authentication" in the registered App's Blade <br>
-(17) Select "Access tokens" and "ID tokens" <br>
-(18) Save it
+(17) Select "Authentication" in the registered App's Blade <br>
+(18) Select "Access tokens" and "ID tokens" <br>
+(19) Save it
 
 # 3. Create VM for Python
 ```
