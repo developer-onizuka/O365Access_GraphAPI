@@ -87,7 +87,7 @@ https://login.microsoftonline.com/<TENANT_ID>/oauth2/v2.0/authorize
 ```
 
 # 5-2. Response in browser's address bar
-The token is "access_token=xxx..." in the response.
+The token is "**access_token=xxx...**" in the response.
 
 http://localhost/
 **#access_token=xxx...**
@@ -95,5 +95,20 @@ http://localhost/
 &expires_in=3971
 &scope=profile+openid+email+https%3a%2f%2fgraph.microsoft.com%2fMail.Read
 &session_state=xxx...
+
+# 5-3. Access to O365's Graph API with token
+You can put the token retrieved into the header of API call. You can find messages.
+```
+# curl -H "Authorization: Bearer xxx..." https://graph.microsoft.com/v1.0/me/messages |jq .value[].subject
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 23199    0 23199    0     0   112k      0 --:--:-- --:--:-- --:--:--  112k
+"You've joined the Sample Team Site group"
+```
+
+See also [Microsoft Graph REST API v1.0 endpoint reference](https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0). <br>
+
+# 5-4. Other APIs
 
 
