@@ -2,6 +2,8 @@
 
 Microsoft Graph is the gateway to data and intelligence in Microsoft 365. It provides a unified programmability model that you can use to access the tremendous amount of data in Microsoft 365, Windows, and Enterprise Mobility + Security. Use the wealth of data in Microsoft Graph to build apps for organizations and consumers that interact with millions of users.
 
+![O365Access_GraphAPI.png](https://github.com/developer-onizuka/Diagrams/blob/main/O365Access_GraphAPI/O365Access_GraphAPI.drawio.png)
+
 # 1. Create Developer Account
 You can create Developer Account as free so that you can test your O365 app.
 > https://developer.microsoft.com/ja-jp/microsoft-365/dev-program
