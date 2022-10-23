@@ -14,9 +14,13 @@ Login to [Azure](https://portal.azure.com).
 (1) Select "App registrations" in Azure portal's Blade <br>
 (2) Select "New registration" in App registraitons's tab <br>
 (3) Enter the App name in the name box <br>
-    - ex: getMail, getPresence, etc <br>
+```
+    ex: getMail, getPresence, etc
+```
 (4) Enter redirect URI <br>
-    - ex: http://localhost/ <br>
+```
+    ex: http://localhost/
+```
 (5) Select Register button underneath <br>
 (6) Check Client ID and Tenant ID <br>
 
