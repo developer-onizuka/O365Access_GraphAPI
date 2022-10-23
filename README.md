@@ -67,7 +67,7 @@ Login to [Azure](https://portal.azure.com).
 # git clone https://github.com/developer-onizuka/O365Access_GraphAPI
 # cd O365Access_GraphAPI
 ```
-You can find mail as below:
+You can find mail as followings:
 ```
 # python3 getMail.py 
 New access token retrieved....
