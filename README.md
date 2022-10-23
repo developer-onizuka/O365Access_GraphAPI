@@ -137,6 +137,6 @@ After login to Teams App.
 ```
 
 # 6. Reference
-> https://dev.classmethod.jp/articles/microsoft-graph-python/
-> https://ashiqf.com/2021/03/16/call-microsoft-graph-api-as-a-signed-in-user-with-delegated-permission-in-power-automate-or-azure-logic-apps-using-http-connector/
-> https://qiita.com/massie_g/items/fe7540161aa4a5f86bf5
+> https://dev.classmethod.jp/articles/microsoft-graph-python/<br>
+> https://ashiqf.com/2021/03/16/call-microsoft-graph-api-as-a-signed-in-user-with-delegated-permission-in-power-automate-or-azure-logic-apps-using-http-connector/<br>
+> https://qiita.com/massie_g/items/fe7540161aa4a5f86bf5<br>
