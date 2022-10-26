@@ -21,7 +21,7 @@ Login to [Azure](https://portal.azure.com).
 ```
     ex: getMail, getPresence, etc
 ```
-(4) Enter redirect URI <br>
+(4) Enter redirect URI (**Very carefully you need "/" at the end.**)<br>
 ```
     ex: http://localhost/
 ```
