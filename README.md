@@ -86,8 +86,8 @@ New access token retrieved....
 
 # 5-1. Token Request to AzureAD
 Enter the URL into your browser. You don't need to specify the CLIENT_CECRET in it because you're asked the consent by AzureAD through browser, soon. <br> **What is the defference between Implicit Credentials Flow and Client Credentials Flow is:** <br>
-**Implicit Credentials** : On behalf of users (**act as the signed-in user**) <br>
-**Client Credentials**   : 2-legged OAuth (**run without a signed-in user present, for example, apps that run as background services or daemons**) <br>
+- **Implicit Credentials** : On behalf of users (**act as the signed-in user**) <br>
+- **Client Credentials**   : 2-legged OAuth (**run without a signed-in user present, for example, apps that run as background services or daemons**) <br>
 ```
 https://login.microsoftonline.com/<TENANT_ID>/oauth2/v2.0/authorize
 ?client_id=<CLIENT_ID>
