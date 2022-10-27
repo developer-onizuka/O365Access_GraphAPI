@@ -84,7 +84,7 @@ New access token retrieved....
 
 # 5. Get Mail from O365 with Implicit Credentials Flow
 **The defference between Implicit Credentials Flow and Client Credentials Flow is:** <br>
-- **Implicit Credentials** : On behalf of users (**act as the signed-in user**) <br>
+- **Implicit Credentials** : On behalf of users (**act as the signed-in user, for example, log in with SNS accounts **) <br>
 - **Client Credentials**   : 2-legged OAuth (**run without a signed-in user present, for example, apps that run as background services or daemons**) <br>
 
 # 5-1. Token Request to AzureAD
