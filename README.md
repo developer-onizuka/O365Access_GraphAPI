@@ -63,7 +63,7 @@ Login to [Azure](https://portal.azure.com).
 ```
 
 # 4. Get Mail from O365 with Client Credentials Flow
-As you can see below, the resource owner(=you) will not be involved during Client Credentials Flow. It means only go through between WebApp and AzureAD not involving the resource owner, so it is also called as **2-legged OAuth**.
+As you can see below, the resource owner(=you) will not be involved during Client Credentials Flow. It means only going through between WebApp and AzureAD not involving the resource owner, so it is also called as **2-legged OAuth**.
 
 ```
 # export TENANT_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
