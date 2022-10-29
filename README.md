@@ -58,6 +58,7 @@ Login to [Azure](https://portal.azure.com).
 # vagrant up --provider=libvirt
 # vagrant ssh
 ```
+The Microsoft Authentication Library (**MSAL**) enables developers to acquire security tokens from the Microsoft identity platform to authenticate users and access secured web APIs. You should install it.<br>
 ```
 # pip install msal
 ```
