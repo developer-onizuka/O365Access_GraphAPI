@@ -43,7 +43,7 @@ Login to [Azure](https://portal.azure.com).
 ```
      ex: Mail.Read
 ```
-(15) Click "Grant admin consent for App" in API permission's tab (**Important if it's for Delegated permissions**) <br>
+(15) Click "Grant admin consent for App" in API permission's tab (**Only if you select Delegated permissions at (13)**) <br>
 (16) Check if API/Permisson is granted (See status row)
 
 # 2-4. Implicit credentials flow 
