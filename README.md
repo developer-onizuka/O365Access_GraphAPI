@@ -21,7 +21,7 @@ Login to [Azure](https://portal.azure.com).
 ```
     ex: getMail, getPresence, etc
 ```
-(4) Enter redirect URI (**Very carefully you need "/" at the end.**)<br>
+(4) Enter redirect URI (**Very carefully if you add "/" at the end, then you don't forget using it as it is in # 5-1 Token Request to AzureAD, below.**)<br>
 ```
     ex: http://localhost/
 ```
