@@ -87,8 +87,8 @@ Important
 ---
 ```
 In the getMail.py, the scope is defined as "https://graph.microsoft.com/.default".
-This value informs the Microsoft identity platform endpoint to include in the access 
-token all the app-level permissions the admin has consented to in #2-3 (15) above. 
+This value informs the Microsoft identity platform endpoint to include in the access token all the app-level 
+permissions the admin has consented to in #2-3 (15) above. 
 ```
 > https://learn.microsoft.com/en-us/graph/auth-v2-service#4-get-an-access-token
 <br>
