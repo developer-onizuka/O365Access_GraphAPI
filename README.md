@@ -85,7 +85,8 @@ New access token retrieved....
 ```
 **- Important** <br>
 In the getMail.py, the scope is defined "**https://graph.microsoft.com/.default**". <br>
-This value informs the Microsoft identity platform endpoint to include in the access token all the app-level permissions the admin has consented to in #2-3 (15) above.
+This value informs the Microsoft identity platform endpoint to include in the access token all the app-level permissions the admin has consented to in #2-3 (15) above. <br>
+> https://learn.microsoft.com/en-us/graph/auth-v2-service#4-get-an-access-token
 
 
 # 5. Get Mail from O365 with Implicit Credentials Flow
