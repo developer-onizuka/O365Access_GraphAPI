@@ -87,12 +87,14 @@ New access token retrieved....
 # 5. Get Mail from O365 with Implicit Credentials Flow
 **The defference between Implicit Credentials Flow and Client Credentials Flow is:** <br>
 - **Implicit Credentials** : On behalf of users (**act as the signed-in user, for example, [log in with SNS accounts](https://github.com/developer-onizuka/OAuth2.0_facebook) or [SPA with JavaScript](https://github.com/developer-onizuka/JavaScriptSPA))** <br> 
+> https://learn.microsoft.com/ja-jp/graph/auth-v2-user
 ```
 It's not a right way to implement this flow to python code alone. Implicit Credentials are used in 
 a browser environment with JavaScript or Flask for python, because User or administrator consents 
 to permissions for the Authorization Endpoint on ID provider through a browser.
 ```
 - **Client Credentials**   : 2-legged OAuth (**run without a signed-in user present, for example, apps that run as background services or daemons**) <br>
+> https://learn.microsoft.com/ja-jp/graph/auth-v2-service
 
 # 5-1. Token Request to AzureAD
 Enter the URL into your browser. You don't need to specify the CLIENT_CECRET in it because you're asked the consent by AzureAD through browser, soon. <br> 
