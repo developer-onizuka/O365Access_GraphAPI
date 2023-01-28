@@ -91,7 +91,7 @@ This value informs the Microsoft identity platform endpoint to include in the ac
 token all the app-level permissions the admin has consented to in #2-3 (15) above. 
 ```
 > https://learn.microsoft.com/en-us/graph/auth-v2-service#4-get-an-access-token
-
+<br>
 
 # 5. Get Mail from O365 with Implicit Credentials Flow
 **The defference between Implicit Credentials Flow and Client Credentials Flow is:** <br>
