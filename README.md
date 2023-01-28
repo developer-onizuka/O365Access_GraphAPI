@@ -43,7 +43,7 @@ Login to [Azure](https://portal.azure.com).
 ```
      ex: Mail.Read
 ```
-(15) Click "Grant admin consent for App" in API permission's tab (**Only if you select Delegated permissions at (13)**) <br>
+(15) Click "Grant admin consent for yourTenant" in API permission's tab (**Only if you select Application permissions at (13)**) <br>
 (16) Check if API/Permisson is granted (See status row)
 
 # 2-4. Implicit credentials flow 
@@ -83,6 +83,9 @@ You can find mail as followings:
 New access token retrieved....
 2022-10-15T11:54:24Z ----- subject: You've joined the Sample Team Site group
 ```
+
+In the getMail.py, the scope is defined "https://graph.microsoft.com/.default". This value informs the Microsoft identity platform endpoint to include in the access token all the app-level permissions the admin has consented to in #2-3 (15) above.
+
 
 # 5. Get Mail from O365 with Implicit Credentials Flow
 **The defference between Implicit Credentials Flow and Client Credentials Flow is:** <br>
