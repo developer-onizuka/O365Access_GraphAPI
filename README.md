@@ -83,9 +83,10 @@ You can find mail as followings:
 New access token retrieved....
 2022-10-15T11:54:24Z ----- subject: You've joined the Sample Team Site group
 ```
-**- Important** <br>
+Important
+---
 ```
-In the getMail.py, the scope is defined "https://graph.microsoft.com/.default".
+In the getMail.py, the scope is defined as "https://graph.microsoft.com/.default".
 This value informs the Microsoft identity platform endpoint to include in the access 
 token all the app-level permissions the admin has consented to in #2-3 (15) above. 
 ```
