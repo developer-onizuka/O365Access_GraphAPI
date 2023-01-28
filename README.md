@@ -83,8 +83,9 @@ You can find mail as followings:
 New access token retrieved....
 2022-10-15T11:54:24Z ----- subject: You've joined the Sample Team Site group
 ```
-
-In the getMail.py, the scope is defined "https://graph.microsoft.com/.default". This value informs the Microsoft identity platform endpoint to include in the access token all the app-level permissions the admin has consented to in #2-3 (15) above.
+**- Important**
+In the getMail.py, the scope is defined "**https://graph.microsoft.com/.default**". <br>
+This value informs the Microsoft identity platform endpoint to include in the access token all the app-level permissions the admin has consented to in #2-3 (15) above.
 
 
 # 5. Get Mail from O365 with Implicit Credentials Flow
