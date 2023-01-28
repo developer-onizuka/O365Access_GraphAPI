@@ -38,7 +38,7 @@ Login to [Azure](https://portal.azure.com).
 (10) Select "API permissions" in the registered App's Blade <br>
 (11) Select "Add a permission" in API permissions's tab <br>
 (12) Select "Microsoft Graph" in a poped-up window <br>
-(13) Select "Application permissions" for Client Credentials Flow or "Delegated permissions" for Implicit Credentials Flow. <br>
+(13) Select "**Application permissions**" for Client Credentials Flow or "**Delegated permissions**" for Implicit Credentials Flow. <br>
 (14) Select the permission to let grant
 ```
      ex: Mail.Read
